@@ -14,9 +14,9 @@
 .masthead .wordmark{width:50px;height:50px;display:block;flex:0 0 50px;letter-spacing:0}.masthead .wordmark img{display:block;width:100%;height:100%;object-fit:contain}.masthead nav img{width:18px;height:18px}
 @media(max-width:380px){.masthead .wordmark{width:42px;height:42px;flex-basis:42px}.masthead nav img{width:13px;height:13px}}
 
-.cameo-row{grid-template-columns:55px 1fr auto}.cameo-copy{display:flex;flex-direction:column;align-items:flex-start;gap:12px}.cameo-copy b{margin:0}.cameo-logo{display:block;width:clamp(80px,11vw,150px);height:82px;object-fit:contain}
-@media(max-width:650px){.cameo-row{grid-template-columns:34px 1fr auto}.cameo-copy{gap:9px}.cameo-copy b{grid-column:auto;margin:0}.cameo-logo{width:64px;height:58px}}
-@media(max-width:380px){.cameo-logo{width:54px;height:50px}}
+.cameo-row{grid-template-columns:55px 1fr}.cameo-copy{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.cameo-copy b{margin:0}.cameo-title-logo{display:block;width:clamp(150px,20vw,260px);height:72px;object-fit:contain;object-position:left center}
+@media(max-width:650px){.cameo-row{grid-template-columns:34px 1fr}.cameo-copy{gap:5px}.cameo-copy b{grid-column:auto;margin:0}.cameo-title-logo{width:145px;height:58px}}
+@media(max-width:380px){.cameo-title-logo{width:128px;height:52px}}
 
 .hero .intro{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:700;letter-spacing:-.025em;line-height:1.12}
 .hero .intro span{display:block}
