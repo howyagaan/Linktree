@@ -15,6 +15,7 @@
 @media(max-width:380px){.masthead .wordmark{width:42px;height:42px;flex-basis:42px}.masthead nav img{width:13px;height:13px}}
 
 .cameo-row{grid-template-columns:55px 1fr}.cameo-copy{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.cameo-copy b{margin:0}.cameo-title-logo{display:block;width:clamp(150px,20vw,260px);height:72px;object-fit:contain;object-position:left center}
+@media(min-width:651px){.link-row>.number{min-width:2.6em;font-size:13px;letter-spacing:.14em}.cameo-row{grid-template-columns:72px minmax(0,1fr);column-gap:24px;min-height:136px}.cameo-row>.number{align-self:center}.cameo-copy{justify-content:center}.cameo-title-logo{margin-left:0}}
 @media(max-width:650px){.cameo-row{grid-template-columns:34px 1fr}.cameo-copy{gap:5px}.cameo-copy b{grid-column:auto;margin:0}.cameo-title-logo{width:145px;height:58px}}
 @media(max-width:380px){.cameo-title-logo{width:128px;height:52px}}
 
